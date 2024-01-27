@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;1,100;1,300;1,800&display=swap');
+
+
+/* Creating Variables -->  */
+:root{
+    --primary: #0077b6;
+    --secondary: #48cae4;
+    --black: #333;
+    --white: #fff;
+    --box-shadow: 0 .5rem 1rem rgba(0,0,0,0.1);
+}
+
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+
+}
+
+/* html{
+    font-size: 50.5%;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+} */
+
+section{
+    padding: 5rem 7%;
+}
+
+
+/* Header -->  */
+
+.header{
+    /* font-size: .5rem; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: var(--white);
+    box-shadow: var(--box-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem 5%;
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 2%;
+    max-height: 7rem;
+}
+
+.header .logo{
+    font-size: 2rem;
+    font-weight: bolder;
+    color: var(--black);
+}
+
+.header .logo i{
+    padding-right: 0rem;
+}
+
+.header .navbar a{
+    font-size: 1.2rem;
+    color: var(--black);
+    margin: 0 1rem;
+    font-weight: bold;
+    margin-bottom: 1%;
+    display: inline;
+    float: left;
+}
+
+.header .navbar a:hover{
+    color: var(--primary);
+    font-weight: bold;
+}
+
+#menu-btn{
+    font-size: 3rem;
+    display: none;
+    margin-left: 1.7rem;
+    cursor: pointer;
+}
+
+.btn {
+    text-align: center;
+    height: 2.8rem;
+    display: inline-flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    padding: 0.5rem 0.5rem;
+    background: var(--primary);
+    border-radius: .5rem;
+    width: 6rem;
+    color: var(--white);
+    font-size: 0.7rem;
+    cursor: pointer;
+}
+
+.header .navbar .btn{
+    color: var(--white);
+    justify-content: end;
+    /*margin-right: 5rem;*/
+    /*margin-left: 0rem;*/
+}
+
+.header .navbar .buttons {
+    margin-left: 60rem;
+    margin-right: -2rem;
+}
+
+.header .navbar .btn:hover{
+    color: var(--white);
+}
+
+.btn:hover{
+    background-color: var(--secondary);
+}
