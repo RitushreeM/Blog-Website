@@ -2,7 +2,7 @@
   "name": "blog-app",
   "private": true,
   "version": "0.0.0",
-  "homepage":"https://RitushreeM.github.io/Blog-Website",
+  "homepage":"https://ritushreem.github.io/blog-website",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
